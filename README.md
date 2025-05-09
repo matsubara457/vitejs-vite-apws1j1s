@@ -1,3 +1,31 @@
 # vitejs-vite-apws1j1s
+## セクション２で学んだこと
+### DOM
+Document of Object Modelの略でHTMLを解釈し木構造にしていたもの  
+素のJSやJueryで直接操作していたが、後からコード見た人がどこで何をしているかわからない等の複雑さがあった  
+  
+上記解決するためのものの一つが仮装DOM  
+変更の差分がある場所のみを書き換える  
+Reactなど、仮装DOMを意識しなくてもよくなっている　　
+  
+## パッケージマネージャー
+NPM（パッケージのレジストリ）：オンライン上で公開されている. 
+↓  
+package.json：何をどのバージョンでインストールしたかがローカルに記録される. 
+記録された場合、package-lock.jsonが自動で生成される：インストールしたモジュールが裏で使っている他のモジュール等が記録され自動で作成される（基本は触らない）. 
+↓  
+node_modules：ここにモジュールの実態がインストールされる. 
+容量が大きいのでGithubには上げない. 
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/matsubara457/vitejs-vite-apws1j1s)
+
+## ECMAScript
+JSの標準規格（毎年一回発表されES〇〇できさいされる）  
+
+
+## トランスパイラ
+新しいJSの記法を古い記法に変換してくれる
+
+## SPA
+Single Page Applicationの略  
+初期ページ以降でページ遷移のサーバーリクエストをした場合、ページを返すのではなく必要最低限の情報を返す  
+表示速度が上がる  
