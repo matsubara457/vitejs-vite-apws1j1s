@@ -34,18 +34,36 @@
 // console.log(val3);
 
 // constで定義したオブジェクトはプロパティの変更が可能
-const val4 = {
-    name: '松原',
-    age: 25,
-  };
-  console.log(val4);
-  val4.name = 'matsubara';
-  val4.address = 'tokyo';
-  console.log(val4);
+// const val4 = {
+//     name: '松原',
+//     age: 25,
+//   };
+//   console.log(val4);
+//   val4.name = 'matsubara';
+//   val4.address = 'tokyo';
+//   console.log(val4);
   
-  // constで定義した配列はプロパティの変更が可能
-  const val5 = ['dog', 'cat'];
-  val5[0] = 'bird';
-  val5.push('monkey');
-  console.log(val5);
+//   // constで定義した配列はプロパティの変更が可能
+//   const val5 = ['dog', 'cat'];
+//   val5[0] = 'bird';
+//   val5.push('monkey');
+//   console.log(val5);
   
+/**
+ * テンプレート文字列 ''
+ */
+const name = "松原"
+const age = 25
+
+// 「私の名前は松原です。年齢は25歳です。」
+
+// 従来の方法
+const message1 = '私の名前は' + name + "です。年齢は" + age + "です。"
+console.log(message1)
+
+// テンプレート文字列を用いた方法
+const message2 = `私の名前は${name}です。年齢は${age}です。`
+console.log(message2)
+
+
+
