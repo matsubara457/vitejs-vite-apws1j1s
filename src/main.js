@@ -49,21 +49,43 @@
 //   val5.push('monkey');
 //   console.log(val5);
   
+// /**
+//  * テンプレート文字列 ''
+//  */
+// const name = "松原"
+// const age = 25
+
+// // 「私の名前は松原です。年齢は25歳です。」
+
+// // 従来の方法
+// const message1 = '私の名前は' + name + "です。年齢は" + age + "です。"
+// console.log(message1)
+
+// // テンプレート文字列を用いた方法
+// const message2 = `私の名前は${name}です。年齢は${age}です。`
+// console.log(message2)
+
 /**
- * テンプレート文字列 ''
+ * アロー関数
  */
-const name = "松原"
-const age = 25
+// 従来の関数
+// function func1(str){
+//     return str;
+// }
+// const func1 = function(str){
+//     return str;
+// }
 
-// 「私の名前は松原です。年齢は25歳です。」
+// console.log(func1('func1です'))
 
-// 従来の方法
-const message1 = '私の名前は' + name + "です。年齢は" + age + "です。"
-console.log(message1)
+// // アロー関数
+// const func2 = str => {
+//     return str;
+// }
+// console.log(func2('func2です'))
 
-// テンプレート文字列を用いた方法
-const message2 = `私の名前は${name}です。年齢は${age}です。`
-console.log(message2)
-
-
-
+const func3 = (num1,num2) => ({
+    hoge : num1 ,
+    huga : num2,
+});
+console.log(func3(10,14))
