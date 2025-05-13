@@ -128,3 +128,12 @@
 // console.log(age);
 // console.log(name);
 
+// /**
+//  * オブジェクトの省略記法
+//  */
+// const name = '松原';
+// const age = 31;
+
+// const myProfile = { name, age};
+// console.log(myProfile);
+
