@@ -218,3 +218,37 @@
 //     return num1 + num2 > 100 ? console.log("100を超えています") : "許容範囲内です";
 // }
 // console.log(checkSum(10,100))
+
+/**
+ * 論理演算子の本当の意味を知ろう && ||
+ */
+// truthe, falsyについて
+// "ABC" 0 10 undefined null false [] {}
+// const val = 0
+// if(val){
+//     console.log("valはtruthyです")
+// }else{
+//     console.log("valはfalsyです")
+// }
+
+// const flag1 = true;
+// const flag2 = false;
+
+// if(flag1 || flag2){
+//     console.log("1か2はtrueになります")
+// } 
+// if (flag1 && flag2){
+//     console.log("1も2もtrueになります")
+// }
+
+// // || は左側がtruthの時その時点で返却する
+// const num = undefined;
+// const fee = num || "金額未設定です";
+// console.log(fee)
+
+// // && は左がfalthyの時その時点で返却する
+// const num2 = "ABX";
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2)
+
+
